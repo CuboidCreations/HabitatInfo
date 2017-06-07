@@ -1,0 +1,12 @@
+# HabitatInfo plugin.yml
+name: HabitatInfo
+main: com.gmail.Xeiotos.HabitatInfo.HabitatInfo
+version: 0.0.1
+depend: [HabitatAPI]
+
+commands:
+   habitatinfo:
+      description: The main HabitatInfo command
+      usage: /habitatinfo
+      aliases: hi
+      permission-message: You don't have permission to do this!
